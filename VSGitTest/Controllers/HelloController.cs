@@ -23,7 +23,8 @@ namespace VSGitTest.Controllers
 
         public string Index2()
         {
-            return "v1.1.0.0 Add";
+            string str = "v1.1.0.1 fix bug1";
+            return "v1.1.0.0 Add"+str;
         }
 
         public string Index3()
