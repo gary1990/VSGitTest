@@ -17,7 +17,8 @@ namespace VSGitTest.Controllers
 
         public string Index1()
         {
-            return "v1.0.0.0 Add";
+            string str = "v1.0.0.1 fix bug";
+            return "v1.0.0.0 Add"+str;
         }
 	}
 }
