@@ -14,5 +14,10 @@ namespace VSGitTest.Controllers
         {
             return View();
         }
+
+        public string Index1()
+        {
+            return "v1.0.0.0 Add";
+        }
 	}
 }
